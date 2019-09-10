@@ -1,3 +1,0 @@
-#include "e3.h"
-
-// scrivere la soluzione qui...
