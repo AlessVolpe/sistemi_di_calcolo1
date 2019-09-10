@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include "../e1.h"
+
+void list_concat(node_t **l1, node_t *l2) {
+	node_t **c = l1;		//node_t *p = *l1;
+	node_t *a = l2;
+	if(p != NULL) goto L;		//if (p==NULL) *l1 = l2;
+	*c = a;
+	goto E;
+					//else {
+L:      if((*p).next == NULL) goto F;	//while (p->next!=NULL) p = p->next;
+	p = (*).next;
+	goto L;
+T:      (*p).next = a;			//p -> next = l2;
+E:;    					//}		
+}
+					// Scrivere il C equivalente qui...
